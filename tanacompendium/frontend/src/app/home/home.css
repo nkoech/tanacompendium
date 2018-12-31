@@ -1,0 +1,96 @@
+.home-page .main-content {
+    min-height: 400px;
+}
+
+.main-content .search {
+    padding: 50px 0 50px;
+    background-color: #b8d8d8;
+}
+
+.search .form-control {
+    border: 0;
+}
+
+.search .bottom-btn {
+    text-align: right;
+    padding: 10px 0 0 0;
+}
+.search .bottom-btn .btn {
+    font-weight: 600;
+    background-color: #97be32;
+    margin-top: 7px;
+}
+
+.search .bottom-btn .btn:hover {
+    background-color: #99CC00;
+}
+
+.search .bottom-btn .btn-primary {
+    width: 25%;
+}
+
+.main-content .data-table {
+    padding: 20px 0 20px;
+}
+
+.data-table .top-bottom-bar {
+    padding-bottom: 10px;
+}
+
+.top-bottom-bar .left-widget {
+    text-align: left;
+}
+
+.top-bottom-bar .right-widget {
+    text-align: right;
+}
+
+.top-bottom-bar .widget-label {
+    white-space: nowrap;
+    text-align: left;
+}
+
+.top-bottom-bar .form-control {
+    display: inline-block;
+    width: auto;
+}
+
+.table-striped tbody tr:nth-child(odd) td,
+.table-striped tbody tr:nth-child(odd) th {
+
+    background-color: #DDEAB7;
+}
+
+.top-bottom-bar .content-pagination .pagination {
+    margin: 0;
+}
+
+.content-pagination .pagination a {
+    color: #34495e;
+    border: 0;
+    background-color: transparent;
+}
+
+.pagination .active a,
+.pagination .active a:hover {
+    color: #fff;
+    background-color: #97be32 !important;
+}
+
+.pagination a:hover {
+    background-color: #eceee8 !important;
+}
+
+.pagination li:first-child a, .pagination li:first-child span {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.pagination li:last-child a, .pagination li:last-child span {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/*.pagination .pagination-page {display:none;}*/
+
+
